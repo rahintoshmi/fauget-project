@@ -10,18 +10,18 @@
 </head>
 <body>
     
-    <header class="">
+    <header>
         <!-- navbar starts -->
-        <nav class="mt-[30px] px-[150px]">
+        <nav class="md:mt-[30px] md:px-[150px]">
             <div class="flex justify-between items-center">
                 <div>
-                    <img src="./images/logo.png" alt="">
+                    <img src="./images/logo.png" alt="" class="md:w-[135px] md:h-[82px]">
                 </div>
                 <div >
-                    <ul class="flex gap-10" >
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">About us </a></li>
+                    <ul class="md:flex md:gap-10">
+                        <li><a href="#" class="hidden lg:inline-block">Home</a></li>
+                        <li><a href="#" class="hidden lg:inline-block">Shop</a></li>
+                        <li><a href="#" class="hidden lg:inline-block">About us </a></li>
                         <li><a href="#" class="flex gap-1"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_5_30)">
     <path d="M9 22.5C9.55228 22.5 10 22.0523 10 21.5C10 20.9477 9.55228 20.5 9 20.5C8.44772 20.5 8 20.9477 8 21.5C8 22.0523 8.44772 22.5 9 22.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -43,18 +43,42 @@
     </header>
     <main>
         <!-- Banner starts -->
-         <section>
-            <div class="flex justify-between items-center px-[150px] mt-[170px] mb-[226px]">
+        <section class="banner">
+  <div class="flex flex-col flex-col-reverse w-full lg:flex-row justify-between items-center sm:px-6  lg:px-[150px] sm:mt-16 lg:mt-32 sm:mb-24 lg:mb-40">
+    <div class="w-full px-3 mt-4 lg:w-9/12 mb-8 lg:mb-0">
+      <h1 class="font-noto text-3xl sm:text-2xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
+        ALWAYS <span class="text-[#e95a08]">FRESH FLOWERS</span>
+      </h1>
+      <p class="mt-4 text-sm sm:text-base md:text-lg text-gray-700">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+        From classic roses to exotic blooms, we offer a wide variety of fresh flowers 
+        that are perfect for any occasion.
+      </p>
+    </div>
+    <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
+      <img src="./images/hero-flower.png" alt="Fresh flowers" 
+           class="w-full max-w-md md:max-w-lg lg:max-w-xl">
+    </div>
+  </div>
+        </section>
+        <!-- Banner ends -->
+
+        <!-- plants starts -->
+         <section class="plants">
+            <div>
+                <h2 class="font-noto text-center text-5xl"><span>Our</span> Plants</h2>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div>
                 <div>
-                    <h1>ALWAYS <span>FRESH FLOWERS</span></h1>
-                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-                </div>
-                <div>
-                    <img src="./images/hero-flower.png" alt="">
+                    <img src="./images/sample-flower-image.png" alt="">
+                    <h3>Lily Blossom</h3>
+                    <p>20 USD</p>
+                    <button class="btn-btn-primary"><a href="#">ADD TO CART</a></button>
                 </div>
             </div>
          </section>
-         <!-- Banner ends -->
+        <!-- plants ends -->
     </main>
     
 </body>

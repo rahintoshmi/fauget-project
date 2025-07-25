@@ -9,7 +9,8 @@
     --second-family: "Noto Serif", sans-serif;
     --color: #e95a08;
 }
-body{
+
+body {
     font-family: var(--font-family);
 }
 
@@ -34,3 +35,32 @@ h1, h2, h3, h4, h5, h6, p, span, ul, ol {
 
 
 /*=====  End of Common css  ======*/
+
+/*=============================================
+=            header responsive            =
+=============================================*/
+@media screen and (max-width: 576px) {
+    nav {
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    nav img {
+        width: 63px;
+        height: 38px;
+    }
+    .banner .img {
+       width: 100%;
+    }
+    .banner h1{
+        font-size: 24px;
+
+    }
+    .banner p{
+        font-size: 14px;
+    }
+}
+
+
+/*=====  End of header responsive  ======*/
