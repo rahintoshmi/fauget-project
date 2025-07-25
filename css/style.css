@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*=============================================
+=            Common css            =
+=============================================*/
+/* CSS Reset */
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Noto Serif", sans-serif;
+    --color: #e95a08;
+}
+body{
+    font-family: var(--font-family);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*=====  End of Common css  ======*/
