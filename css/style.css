@@ -28,9 +28,30 @@ ul, ol {
     list-style: none;
 }
 
+ul.bullets {
+    list-style: disc;
+    color: #00000080;
+}
+
 h1, h2, h3, h4, h5, h6, p, span, ul, ol {
     margin: 0;
     padding: 0;
+}
+
+.btn-btn-primary {
+    padding: 26px 50px;
+    width: 240px;
+    background-color: var(--color);
+}
+
+.flowers img {
+    width: 540px;
+    height: 500px;
+  
+}
+.flowers .badge img{
+    width: 286px;
+    height: 286px;
 }
 
 
@@ -50,15 +71,27 @@ h1, h2, h3, h4, h5, h6, p, span, ul, ol {
         width: 63px;
         height: 38px;
     }
+
     .banner .img {
-       width: 100%;
+        width: 100%;
     }
-    .banner h1{
+
+    .banner h1 {
         font-size: 24px;
 
     }
-    .banner p{
+
+    .banner p {
         font-size: 14px;
+    }
+
+    .btn-btn-primary {
+        padding: 13px 30px;
+        width: 171px;
+    }
+    .flowers img {
+        width: 100%;
+        
     }
 }
 
