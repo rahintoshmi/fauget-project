@@ -47,13 +47,16 @@ h1, h2, h3, h4, h5, h6, p, span, ul, ol {
 .flowers img {
     width: 540px;
     height: 500px;
-  
+
 }
-.flowers .badge img{
+
+.flowers .badge img {
     width: 286px;
     height: 286px;
 }
-
+.latest-deals .zabo {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
 /*=====  End of Common css  ======*/
 
@@ -89,9 +92,10 @@ h1, h2, h3, h4, h5, h6, p, span, ul, ol {
         padding: 13px 30px;
         width: 171px;
     }
+
     .flowers img {
         width: 100%;
-        
+
     }
 }
 
